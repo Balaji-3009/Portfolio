@@ -1,0 +1,263 @@
+@keyframes transition {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    background: rgb(15,7,54);
+    background: linear-gradient(90deg, rgba(15,7,54,1) 29%, rgba(12,16,100,1) 88%, rgba(11,25,122,1) 100%);
+    animation: transition 2s;
+}
+
+
+.navbar{
+    background: rgb(15,7,54);
+    background: linear-gradient(90deg, rgba(15,7,54,1) 29%, rgba(12,16,100,1) 88%, rgba(11,25,122,1) 100%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(36, 188, 211);
+    border-radius: 20px;
+    border-right-style: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0;
+    vertical-align: middle;
+    width: 93%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    font-weight:400;
+}
+
+
+#port{
+    font-size: 25px;
+    padding-right: 570px;
+}
+
+.main{
+    float:left;
+    color: white;
+    border: 1px solid rgb(0, 247, 255);
+    padding-left: 50px;
+    padding-top: 1%;
+    width: 40%;
+    margin-top: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-left-radius: 20px;
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
+#fsd{
+    font-size:35px ;
+}
+
+.img{
+    float: right;
+    align-items:end;
+    margin-top: 110px;
+    margin-right: 210px;
+    margin-bottom: 100px;
+    border: 1px solid rgb(0, 247, 255);
+    width:320px;
+    border-radius:50%;
+    padding: 70px;
+    padding-right: 0;
+    box-shadow: 5px 5px 5px 5px rgb(1, 1, 71);
+}
+
+
+#abtme{
+    font-size: 30px;
+    
+}
+
+.about{
+    float: right;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+    margin-right: 90px;
+}
+
+hr{
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 30px;
+    border: 1px solid rgb(0, 247, 255);
+}
+
+.lang{
+    float: left;
+    margin-top: 230px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 8);
+}
+
+.lang:hover{
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 8);
+}
+
+
+.skills{
+    clear: both;
+    float: left;
+    margin-top: 130px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.plimg{
+    clear: both;
+    width: 10%;
+    display: flex;
+    margin-left: 30%;
+}
+
+.plimg2{
+    clear: both;
+    width: 10%;
+    display: flex;
+    margin-left: 17%;
+}
+
+.pl{
+    padding: 20px;
+}
+
+
+.pl:hover{
+    scale: 1.2;
+}
+
+#fe{
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+#resume{
+    clear: both;
+    float: left;
+    border: 1px solid aqua;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aqua;
+    color: rgb(2, 2, 69);
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+#resume:hover{
+    background-color: rgba(0, 255, 255, 0.232);
+    color: white;
+}
+
+.proim{
+    margin: 3%;
+    padding: 2%;
+}
+
+
+.proim1{
+    border: 1px solid aqua;
+    border-radius: 30px;
+    float: left;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.proim1:hover{
+    scale:1.02;
+}
+
+.proim2{
+    border: 1px solid aqua;
+    border-radius: 30px;
+    margin-left: 4%;
+    float: left;
+    width: 30%;
+}
+
+.proim2:hover{
+    scale:1.02;
+}
+
+.proim3{
+    border: 1px solid aqua;
+    border-radius: 30px;
+    float: right;
+    width: 30%;
+    margin-right: 1%;
+}
+
+.proim3:hover{
+    scale:1.02;
+}
+
+.imgtext{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.prodet{
+    color: white;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cim{
+    width:5%;
+    background-color: white;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cim:hover{
+    scale:1.2;
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.cimg{
+    clear: both;
+    margin-left: 41.5%;
+}
+
+
