@@ -32,7 +32,7 @@ body{
     width: 93%;
 }
 
-a{
+.a{
     color: white;
     text-decoration: none;
     padding: 30px;
@@ -132,14 +132,14 @@ hr{
     clear: both;
     width: 10%;
     display: flex;
-    margin-left: 30%;
+    margin-left: 32.5%;
 }
 
 .plimg2{
     clear: both;
     width: 10%;
     display: flex;
-    margin-left: 17%;
+    margin-left: 20%;
 }
 
 .pl{
