@@ -7,6 +7,10 @@
     }
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     background: rgb(15,7,54);
     background: linear-gradient(90deg, rgba(15,7,54,1) 29%, rgba(12,16,100,1) 88%, rgba(11,25,122,1) 100%);
@@ -15,8 +19,6 @@ body{
 
 
 .navbar{
-    background: rgb(15,7,54);
-    background: linear-gradient(90deg, rgba(15,7,54,1) 29%, rgba(12,16,100,1) 88%, rgba(11,25,122,1) 100%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 40px;
     padding-right: 40px;
@@ -39,6 +41,7 @@ body{
     font-size: 20px;
     font-weight:400;
 }
+
 
 
 #port{
@@ -92,7 +95,7 @@ body{
     float: right;
     margin-top: 100px;
     color: white;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 40%;
     margin-right: 90px;
@@ -238,6 +241,7 @@ hr{
     padding-right: 7%;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cim{
