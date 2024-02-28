@@ -279,9 +279,18 @@ hr{
         font-size: 30px;
         width: 70%;
         height:210px;
+        margin-left: 10%;
+        margin-top: 90px;
+        justify-content: center;
     }
     #fsd{
         font-size: 20px;
+    }
+    #logo{
+        padding-left: 10px;
+    }
+    .logo-img{
+        width: 30px;
     }
     #resume{
         font-size: 15px;
@@ -306,7 +315,8 @@ hr{
     .img{
         width:100%;
         padding-right: 60px;
-        margin-left: 10%;
+        margin-left: 20%;
+        align-items: center;
     }
     .lang{
         display: none;
@@ -318,7 +328,18 @@ hr{
         margin-left: 5%;
     }
     .cimg{
-        width: 180%;
-        margin-left:24%;
+        width: 70%;
+        margin-left:24.5%;
+    }
+    .cim{
+        width: 40px;
+    }
+    .img{
+        margin-right: 0;
+        padding-right:0 ;
+        width: 40%
+    }
+    .profimg{
+        width: 60%
     }
 }
