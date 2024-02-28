@@ -9,7 +9,9 @@
 
 html{
     scroll-behavior:smooth;
+    font-size: 20px;
 }
+
 
 body{
     background: rgb(15,7,54);
@@ -17,36 +19,41 @@ body{
     animation: transition 2s;
 }
 
-
-.navbar{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border: 2px solid rgb(36, 188, 211);
-    border-radius: 20px;
-    border-right-style: none;
-    border-top-right-radius: 0;
+.flex-container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px aqua;
+    border-right: none;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 0;
-    vertical-align: middle;
-    width: 93%;
+    border-bottom-left-radius: 20px;
 }
 
-.a{
-    color: white;
-    text-decoration: none;
-    padding: 30px;
+.flex-container > #logo{
+    flex-basis: 20%;
+    padding-left: 20px;
+}
+
+.flex-container > .secondary-flex-container{
+    flex-basis: 80%;
+    padding-right: 8%;
+    display: flex;
+    gap: 5%;
+    justify-content: flex-end;
+}
+
+.flex-container > .secondary-flex-container > *{
     font-size: 20px;
-    font-weight:400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
 }
 
-
-
-#port{
-    font-size: 25px;
-    padding-right: 570px;
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main{
@@ -65,6 +72,7 @@ body{
     border-bottom-left-radius: 20px;
     margin-left: 50px;
     margin-top: 130px;
+    height:370px;
 }
 
 #fsd{
@@ -76,7 +84,7 @@ body{
     align-items:end;
     margin-top: 110px;
     margin-right: 210px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border: 1px solid rgb(0, 247, 255);
     width:320px;
     border-radius:50%;
@@ -85,6 +93,11 @@ body{
     box-shadow: 5px 5px 5px 5px rgb(1, 1, 71);
 }
 
+.about-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 #abtme{
     font-size: 30px;
@@ -93,7 +106,7 @@ body{
 
 .about{
     float: right;
-    margin-top: 100px;
+    margin-top: 150px;
     color: white;
     font-size: 19px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -110,7 +123,7 @@ hr{
 
 .lang{
     float: left;
-    margin-top: 230px;
+    margin-top: 170px;
     margin-left: 50px;
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 8);
 }
@@ -131,20 +144,12 @@ hr{
     width: 100%;
 }
 
-.plimg{
+.plimg, .plimg2{
     clear: both;
-    width: 10%;
     display: flex;
-    margin-left: 32.5%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
-.plimg2{
-    clear: both;
-    width: 10%;
-    display: flex;
-    margin-left: 20%;
-}
-
 .pl{
     padding: 20px;
 }
@@ -179,6 +184,8 @@ hr{
     color: rgb(2, 2, 69);
     font-weight: 500;
     margin-left: 5px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #resume:hover{
@@ -264,4 +271,54 @@ hr{
     margin-left: 41.5%;
 }
 
-
+@media (max-width: 600px){
+    .flex-container > .secondary-flex-container > *{
+        font-size: 14px;
+    }
+    .main{
+        font-size: 30px;
+        width: 70%;
+        height:210px;
+    }
+    #fsd{
+        font-size: 20px;
+    }
+    #resume{
+        font-size: 15px;
+        padding: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .proim1,.proim2,.proim3{
+        width: 90%;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .proim1,.proim2{
+        margin-left: 5%;
+    }
+    .proim3{
+        margin-right: 4%;
+    }
+    .img{
+        width:100%;
+        padding-right: 60px;
+        margin-left: 10%;
+    }
+    .lang{
+        display: none;
+    }
+    .about{
+        width: 90%;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+    .cimg{
+        width: 180%;
+        margin-left:24%;
+    }
+}
